@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    height: 3300px;
 }
 *,
 *::before,
@@ -84,6 +85,7 @@ color: #404bbf;
 }
 .cont {
     background: #2e2f42;
+    height: 600px;
 }
 .title {
     font-family: "Roboto", sans-serif;
@@ -127,6 +129,10 @@ color: #404bbf;
     display:flex;   
     background-color: #FFFFFF
 }
+
+.heading-link {
+    flex-wrap: wrap;
+}
 .heading {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -149,9 +155,16 @@ color: #404bbf;
 }
 .box-one {
     background-color: #F4F4FD;
+    height: 732px;
 }
 .box-list {
     background-color: #FFFFFF;
+}
+.portfolio {
+    height: 1000px;
+}
+.heading-link {
+    display:flex;
 }
 .subject {
     font-family: "Roboto", sans-serif;
