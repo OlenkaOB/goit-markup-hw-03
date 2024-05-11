@@ -3,6 +3,28 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-header .container {
+    display:flex;
+    height: 72;
+    justify-content:space-between;
+}
+.nav {
+ display:flex; 
+ align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+
 a{
     text-decoration: none;
 }
@@ -40,7 +62,7 @@ ul {
   color: #2e2f42;
 }
 .address {
-    font-style: normal 
+    font-style: normal;
 }
 .page-nav .link:hover,
 .page-nav .link:focus{
