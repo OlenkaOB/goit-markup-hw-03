@@ -124,6 +124,7 @@ color: #404bbf;
     text-transform: capitalize;
 }
 .list {
+    display:flex;   
     background-color: #FFFFFF
 }
 .heading {
@@ -142,6 +143,9 @@ color: #404bbf;
    line-height: 1.5;
    letter-spacing: 0.02em;
     color: #434455;
+}
+.box-x {
+    display:flex;   
 }
 .box-one {
     background-color: #F4F4FD;
