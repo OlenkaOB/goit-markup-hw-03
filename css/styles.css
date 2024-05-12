@@ -206,10 +206,12 @@ color: #404bbf;
     margin: 24px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
+    
 }
 .portfolio {
-    height: 1000px;
-    padding-top: 120px; 
+    height: 1000px; 
+    padding-top: 120px;
+     padding-bottom: 120px; 
 }
 .heading-link {
     display:flex;
@@ -219,12 +221,13 @@ color: #404bbf;
     row-gap: 48px; 
 }
 .heading-class {
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
 }
 .heading-add {
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px;
+    margin-bottom: 8px;
 }
 .subject {
     font-family: "Roboto", sans-serif;
