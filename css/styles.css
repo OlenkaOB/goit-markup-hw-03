@@ -75,9 +75,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .address {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 .page-nav {
     display: flex;
@@ -100,6 +103,7 @@ color: #404bbf;
     background: #2e2f42;
     height: 600px;
     align-content: center;
+    padding: 188px 0
 }
 .title {
     font-family: "Roboto", sans-serif;
@@ -109,6 +113,7 @@ color: #404bbf;
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
+   max-width: 496px;
 }
 .nav .nav-tag:hover,
 .nav .nav-tag:focus {
@@ -127,6 +132,14 @@ color: #404bbf;
    letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px;
+}
+.head-link {
+    padding: 120px 0;
 }
 
 .caption  {
@@ -139,10 +152,15 @@ color: #404bbf;
     text-align: center;
     text-transform: capitalize;
     pad: 120px 639px 572px;
+    margin-bottom: 72px;
 }
 .list {
     display:flex;   
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    gap: 24px; 
+}
+.head-list {
+    width: calc((100% - 72px) / 4);
 }
 
 .heading-link {
@@ -162,6 +180,8 @@ color: #404bbf;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin-bottom: 8px; 
+   text-align: center;
 }
 
 .heading-text {
@@ -171,25 +191,45 @@ color: #404bbf;
    line-height: 1.5;
    letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+}
+.div-heading {
+    padding: 32px 0;
 }
 .box-x {
-    display:flex;   
+    display:flex;  
+    gap: 24px;  
 }
 .box-one {
     background-color: #F4F4FD;
     height: 732px;
     align-content: center;
+    padding: 120px 0;
 }
 .box-list {
     background-color: #FFFFFF;
     margin: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 .portfolio {
     height: 1000px;
+    padding-top: 120px; 
 }
 .heading-link {
     display:flex;
     align-items:center;
+    flex-wrap: wrap;
+    column-gap: 24px; 
+    row-gap: 48px; 
+}
+.heading-class {
+    width: calc((100% - 48px) / 3); 
+}
+.heading-add {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .subject {
     font-family: "Roboto", sans-serif;
@@ -200,8 +240,11 @@ color: #404bbf;
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
-
+.portfolio .box {
+    padding: 120px;
+}
 
 .logo-two {
     font-family: "Raleway", sans-serif;
@@ -212,7 +255,7 @@ color: #404bbf;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin: 16px;
+    margin-bottom: 16px;
 }
 .accent-two {
    font-family: "Raleway", sans-serif;
@@ -222,6 +265,8 @@ color: #404bbf;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #f4f4fd;
+   display: inline-block;
+    margin-bottom: 16px;
 }
 .text {
     font-family: "Roboto", sans-serif;
