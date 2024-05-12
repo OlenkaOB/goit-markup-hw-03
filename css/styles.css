@@ -99,6 +99,7 @@ color: #404bbf;
 .cont {
     background: #2e2f42;
     height: 600px;
+    align-content: center;
 }
 .title {
     font-family: "Roboto", sans-serif;
@@ -137,6 +138,7 @@ color: #404bbf;
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    pad: 120px 639px 572px;
 }
 .list {
     display:flex;   
@@ -145,6 +147,13 @@ color: #404bbf;
 
 .heading-link {
     flex-wrap: wrap;
+    padding-top: 120px; 
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    height: 344px;
 }
 .heading {
     font-family: "Roboto", sans-serif;
@@ -169,9 +178,11 @@ color: #404bbf;
 .box-one {
     background-color: #F4F4FD;
     height: 732px;
+    align-content: center;
 }
 .box-list {
     background-color: #FFFFFF;
+    margin: 24px;
 }
 .portfolio {
     height: 1000px;
@@ -200,6 +211,8 @@ color: #404bbf;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin: 16px;
 }
 .accent-two {
    font-family: "Raleway", sans-serif;
@@ -220,4 +233,7 @@ color: #404bbf;
 }
 .box {
     background: #2e2f42;
+    height: 312px;
+   padding: 100px 0;
+
 }
