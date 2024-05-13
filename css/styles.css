@@ -7,6 +7,7 @@ body {
 .container {
     padding-left: 15px;
     padding-right: 15px;
+    width: 1158px;
 }
 .page-header .container {
     display:flex;
