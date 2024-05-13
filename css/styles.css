@@ -13,6 +13,10 @@ body {
     height: 72;
     justify-content:space-between;
     border-bottom: 1px solid #e7e9fc;
+
+}
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
 }
 .nav {
  display:flex; 
