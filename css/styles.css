@@ -8,6 +8,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
+    margin: 0 auto;
 }
 .page-header .container {
     display:flex;
@@ -55,6 +56,7 @@ a{
 .nav-link {
     display: flex;
     gap: 40px;
+    padding-left: 0; margin: 0;
 }
 .accent {
     font-family: "Raleway", sans-serif;
@@ -169,6 +171,7 @@ color: #404bbf;
     display:flex;   
     background-color: #FFFFFF;
     gap: 24px; 
+    padding-left: 0; margin: 0;
 }
 .head-list {
     margin: 0;
@@ -212,6 +215,7 @@ color: #404bbf;
 .box-x {
     display:flex;  
     gap: 24px;  
+    padding-left: 0; margin: 0;
 }
 .box-one {
     background-color: #F4F4FD;
@@ -237,6 +241,7 @@ color: #404bbf;
     flex-wrap: wrap;
     column-gap: 24px; 
     row-gap: 48px; 
+    padding-left: 0; margin: 0;
 }
 .heading-class {
     margin: 0;
