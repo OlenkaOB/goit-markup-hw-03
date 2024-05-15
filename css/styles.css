@@ -4,12 +4,21 @@ body {
     background-color: #FFFFFF; 
 }
 
+img {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
 .container {
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
     margin: 0 auto;
 }
+
 .page-header .container {
     display:flex;
   
@@ -26,13 +35,6 @@ body {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-}
-img {
-    display: block;
-}
-
-a{
-    text-decoration: none;
 }
 .nav .accent:focus,
 .nav .accent:hover {
